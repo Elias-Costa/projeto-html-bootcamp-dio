@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    background-color: rgb(93, 89, 105);
+    padding: 10px 20px 0px;
+    text-align: left;
+}
+.menu ul li {
+    margin-bottom: 30px;
+    list-style: none;
+}
+.menu ul li span{
+    border-bottom: 2px solid rgb(73, 226, 73);
+    padding: 5px;
+}
+.menu ul li span:hover{
+    background-color: rgb(73, 226, 73);
+}
+.header {
+    background-color: rgb(42, 36, 75);
+    min-height: 150px;
+    text-align: center;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(42, 36, 75);
+    min-height: 150px;
+}
+.logo {
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.link-menu {
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+.contatos {
+    margin-left: 20px;
+    color: white;
+}
+.central-atendimento{
+    color: chartreuse;
+}
+#tabela-atendimento thead tr th{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(153, 84, 37);
+    color: white;
+}
+#tabela-atendimento tbody tr td{
+    border: 1px solid black;
+    padding: 10px;
+}
+#tabela-atendimento tbody tr:hover{
+    background-color: cornflowerblue
+}
+
+.contato-input{
+    border: none;
+    border-bottom: 2px solid chartreuse;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.mensagem{
+    width: 320px;
+    height: 100px;
+    min-width: 320px;
+    min-height: 100px;
+    max-width: 400px;
+    max-height: 150px;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
+
